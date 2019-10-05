@@ -2,7 +2,9 @@ package programs
 
 object LambdaExp {
   def main(args: Array[String]): Unit = {
-
+    /*
+     *Lambda Expression is represented by "=>"
+    */
     // Function that uses variable names in lambda expression
     val square = ( x: Double )=> x * x
 
