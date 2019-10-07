@@ -100,14 +100,14 @@ object BankMain {
   }
 
   private val menu = """Select one of the following options:
-1. Create Customer
-2. Select Customer
-3. Create Account
-4. Close Account
-5. Select Account
-6. Deposit to Account
-7. Withdraw from Account
-8. Check Account Balance
-9. Change Address
-10. Quit"""
+                      1. Create Customer
+                      2. Select Customer
+                      3. Create Account
+                      4. Close Account
+                      5. Select Account
+                      6. Deposit to Account
+                      7. Withdraw from Account
+                      8. Check Account Balance
+                      9. Change Address
+                      10. Quit"""
 }
