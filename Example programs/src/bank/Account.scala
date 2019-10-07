@@ -3,6 +3,8 @@ package bank
 class Account(val customer: Customer, val id: String) {
   private var _balance = 0
 
+  customer.addAccount(this)
+
   def balance: Int = _balance
 
   def deposit(amount: Int): Boolean = {
