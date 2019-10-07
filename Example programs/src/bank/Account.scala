@@ -3,7 +3,7 @@ package bank
 class Account(val customer: Customer, val id: String) {
   private var _balance = 0
 
-  def balance = _balance
+  def balance: Int = _balance
 
   def deposit(amount: Int): Boolean = {
     if(amount < 0) false
