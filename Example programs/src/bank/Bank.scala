@@ -6,9 +6,11 @@ class Bank {
   private var nextCustomerNumber = 0
   private var nextAccountNumber = 0
 
-  def addCustomer(fname: String, lname: String, address: Address): Unit = {
+  def addCustomer(fname: String, lname: String, address: Address): Customer = {
     nextCustomerNumber += 7
-    _customers ::= new Customer(fname, lname, nextCustomerNumber.toString, address)
+    val customer = new Customer(fname, lname, nextCustomerNumber.toString, address)
+    _customers ::= customer
+    customer
   }
 
   def openAccount(c: Customer): Account = {

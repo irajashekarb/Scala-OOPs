@@ -1,5 +1,3 @@
 package bank
 
-class Address {
-
-}
+class Address(lines: List[String])
