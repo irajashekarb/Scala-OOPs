@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="scalafx">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/scalafx/scalafx-master/target/scala-2.12/scalafx.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$USER_HOME$/Desktop/scalafx/scalafx-master/target/scala-2.12/scalafx.jar!/" recursive="false" />
+  </library>
+</component>

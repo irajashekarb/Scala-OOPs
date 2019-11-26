@@ -1,6 +1,6 @@
 package bank
 
-import io.StdIn._
+import scala.io.StdIn._
 
 object BankMain {
   def main(args: Array[String]): Unit = {
